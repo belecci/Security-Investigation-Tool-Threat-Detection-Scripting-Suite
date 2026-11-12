@@ -1,0 +1,143 @@
+﻿============================================================
+         SECURITY INVESTIGATION REPORT
+         Generated : 2026-03-18 19:55:56
+         Student   : B00170371
+============================================================
+
+SUMMARY
+--------
+Total Alerts   : 111
+Risk Level     : CR!T!CAL
+Top Attacker   : 24.151.103.17
+
+------------------------------------------------------------
+DETECTION 1 - SSH Brute Force
+Alerts : 104
+  - IP: 24.151.103.17 | Attempts: 306
+  - IP: 34.204.227.175 | Attempts: 86
+  - IP: 49.4.143.105 | Attempts: 80
+  - IP: 201.178.81.113 | Attempts: 44
+  - IP: 122.163.61.218 | Attempts: 40
+  - IP: 181.26.186.35 | Attempts: 37
+  - IP: 85.245.107.41 | Attempts: 20
+  - IP: 14.54.210.101 | Attempts: 16
+  - IP: 181.25.206.27 | Attempts: 16
+  - IP: 222.186.56.220 | Attempts: 14
+  - IP: 181.25.201.155 | Attempts: 12
+  - IP: 221.194.44.190 | Attempts: 12
+  - IP: 122.190.143.18 | Attempts: 8
+  - IP: 46.30.160.83 | Attempts: 8
+  - IP: 61.183.117.250 | Attempts: 8
+  - IP: 123.96.5.168 | Attempts: 8
+  - IP: 183.146.159.20 | Attempts: 8
+  - IP: 125.107.136.165 | Attempts: 8
+  - IP: 182.243.87.6 | Attempts: 8
+  - IP: 223.244.185.76 | Attempts: 8
+  - IP: 110.78.174.75 | Attempts: 8
+  - IP: 175.162.187.121 | Attempts: 8
+  - IP: 105.101.221.33 | Attempts: 8
+  - IP: 49.84.87.84 | Attempts: 8
+  - IP: 183.93.253.159 | Attempts: 8
+  - IP: 77.231.252.103 | Attempts: 8
+  - IP: 178.219.248.139 | Attempts: 8
+  - IP: 177.38.145.209 | Attempts: 8
+  - IP: 46.89.129.145 | Attempts: 8
+  - IP: 103.230.120.26 | Attempts: 8
+  - IP: 181.25.189.115 | Attempts: 8
+  - IP: 42.184.142.151 | Attempts: 8
+  - IP: 78.106.21.86 | Attempts: 8
+  - IP: 60.187.118.40 | Attempts: 8
+  - IP: 112.251.168.248 | Attempts: 8
+  - IP: 114.32.100.101 | Attempts: 8
+  - IP: 183.152.79.79 | Attempts: 8
+  - IP: 123.153.146.183 | Attempts: 8
+  - IP: 1.30.211.144 | Attempts: 8
+  - IP: 93.120.176.237 | Attempts: 8
+  - IP: 82.64.2.59 | Attempts: 8
+  - IP: 179.38.76.250 | Attempts: 8
+  - IP: 111.40.166.130 | Attempts: 8
+  - IP: 61.166.73.66 | Attempts: 8
+  - IP: 122.189.198.238 | Attempts: 8
+  - IP: 111.40.30.206 | Attempts: 8
+  - IP: 58.19.144.50 | Attempts: 8
+  - IP: 119.193.140.176 | Attempts: 8
+  - IP: 178.161.33.80 | Attempts: 4
+  - IP: 68.182.39.76 | Attempts: 4
+  - IP: 186.47.222.98 | Attempts: 4
+  - IP: 58.100.135.31 | Attempts: 4
+  - IP: 219.82.145.223 | Attempts: 4
+  - IP: 116.255.253.137 | Attempts: 4
+  - IP: 37.110.24.51 | Attempts: 4
+  - IP: 201.27.216.125 | Attempts: 4
+  - IP: 181.23.26.185 | Attempts: 4
+  - IP: 1.189.205.173 | Attempts: 4
+  - IP: 179.208.151.103 | Attempts: 4
+  - IP: 182.243.85.75 | Attempts: 4
+  - IP: 119.193.140.203 | Attempts: 4
+  - IP: 61.174.116.31 | Attempts: 4
+  - IP: 170.79.155.119 | Attempts: 4
+  - IP: 191.83.152.32 | Attempts: 4
+  - IP: 37.78.105.176 | Attempts: 4
+  - IP: 186.129.147.223 | Attempts: 4
+  - IP: 122.144.136.83 | Attempts: 4
+  - IP: 181.211.173.182 | Attempts: 4
+  - IP: 201.178.245.106 | Attempts: 4
+  - IP: 126.59.251.31 | Attempts: 4
+  - IP: 122.191.88.115 | Attempts: 4
+  - IP: 186.130.83.53 | Attempts: 4
+  - IP: 122.112.235.133 | Attempts: 4
+  - IP: 122.189.193.214 | Attempts: 4
+  - IP: 112.101.164.200 | Attempts: 4
+  - IP: 91.243.236.123 | Attempts: 4
+  - IP: 188.18.252.218 | Attempts: 4
+  - IP: 190.107.182.33 | Attempts: 4
+  - IP: 5.167.75.191 | Attempts: 4
+  - IP: 106.57.58.19 | Attempts: 4
+  - IP: 181.23.168.176 | Attempts: 4
+  - IP: 49.4.143.181 | Attempts: 4
+  - IP: 218.60.136.106 | Attempts: 4
+  - IP: 122.191.89.89 | Attempts: 4
+  - IP: 122.244.28.82 | Attempts: 4
+  - IP: 151.241.67.217 | Attempts: 4
+  - IP: 111.40.168.90 | Attempts: 4
+  - IP: 123.164.142.82 | Attempts: 4
+  - IP: 60.165.208.28 | Attempts: 4
+  - IP: 122.189.197.241 | Attempts: 4
+  - IP: 123.119.111.172 | Attempts: 4
+  - IP: 95.190.198.34 | Attempts: 4
+  - IP: 94.154.25.149 | Attempts: 4
+  - IP: 218.91.34.237 | Attempts: 4
+  - IP: 222.187.86.51 | Attempts: 4
+  - IP: 59.174.52.12 | Attempts: 4
+  - IP: 191.81.42.216 | Attempts: 4
+  - IP: 183.93.215.158 | Attempts: 4
+  - IP: 49.4.143.5 | Attempts: 4
+  - IP: 222.89.76.13 | Attempts: 4
+  - IP: 122.5.240.60 | Attempts: 4
+  - IP: 186.128.141.232 | Attempts: 4
+  - IP: 123.120.200.51 | Attempts: 4
+  - IP: 73.231.4.205 | Attempts: 4
+
+------------------------------------------------------------
+DETECTION 2 - IOC Matches
+Alerts : 5
+ IOC Matched: 198.51.100.8
+ IOC Matched: 203.0.113.5
+ IOC Matched: /wp-admin
+ IOC Matched: /phpmyadmin
+ IOC Matched: /admin
+
+------------------------------------------------------------
+DETECTION 3 - Suspicious PowerShell
+Alerts : 2
+ - Line 8: 2025-02-01 10:02:44 powershell.exe -NoProfile -ExecutionPolicy Bypass -EncodedCommand SQBFAFgA...
+ - Line 8: 2025-02-01 10:02:44 powershell.exe -NoProfile -ExecutionPolicy Bypass -EncodedCommand SQBFAFgA...
+
+------------------------------------------------------------
+DETECTION 4 - VirusTotal IP Reputation
+Alerts : 0
+  No malicious IPs found.
+
+============================================================
+END OF REPORT
+============================================================
